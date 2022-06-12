@@ -1,0 +1,19 @@
+Step 1. Downlaod Logshark
+ 1. Download Logshark from below link.
+ https://github.com/tableau/Logshark
+ 2. Unzip download logshark zip file.
+
+Step 2. Cofigure Tableau Server and Logshark configuration.
+ 3. Set up Tableau server for logshark output workbook. 
+ Oon Tableau Server
+ 3.1. Create Site
+ 3.2 Create user
+ 4. Go to Config folder in Logshark folder  
+ 5. As an option, Edit LogsharkConfig.json file for Tableau Server to publish analyzed workbook output 
+
+Step 3. Configure OS PATH and run
+ 6. Add Logshark folder path to System PATH. 
+ 7. Open CMD with administrator and run Logshark with Tableau Server log file.
+ logshark C:\logs.zip -p
+ 
+logshark --help
